@@ -53,10 +53,14 @@ public class VentanaJuego extends JFrame {
             @Override
             public void keyPressed(KeyEvent e) {
                 if(!enJuego) return;
+
+                if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
+                    pausa();
+                    return;
+                }
+
+                if (controlador.isPausa()) return;
                     switch (e.getKeyCode()) {
-                        case KeyEvent.VK_ESCAPE:
-                            pausa();
-                            break;
                         case KeyEvent.VK_W:
                             controlador.moverSubmarinoArriba();
                             break;
