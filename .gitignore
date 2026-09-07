@@ -1,0 +1,16 @@
+# Compiled classes / build output
+out/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Sistema
+.DS_Store
+Thumbs.db
