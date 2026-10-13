@@ -55,3 +55,9 @@ recursos/                  # Imágenes y audio del juego
 ## Tecnologías
 
 Java (Swing, Java Sound API). Sin dependencias externas.
+
+## Licencia
+
+El código fuente (`src/`) está bajo licencia [MIT](LICENSE).
+Las imágenes y sonidos de `recursos/` no son de mi autoría: pertenecen a sus respectivos autores y
+se usan solo con fines educativos, por lo que **no** están cubiertos por esa licencia.
